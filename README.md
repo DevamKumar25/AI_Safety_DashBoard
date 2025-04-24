@@ -1,77 +1,64 @@
-# AI Safety Incident Dashboard 🚨
+# ⚠️ AI Safety Dashboard
 
-A simple and responsive frontend dashboard for logging and viewing hypothetical AI safety incidents, built for **HumanChain's AI Safety Assignment**.
+A responsive and interactive dashboard built with **React + TypeScript + Tailwind CSS** to track and manage AI safety incidents.
 
----
-
-## 📝 Description
-
-This project is a **frontend-only AI Safety Incident Dashboard**, created as part of an assignment for HumanChain—a company focused on AI safety and trust. The dashboard allows users to view, filter, sort, and report potential AI safety incidents, simulating a real-world internal tool for monitoring such events.
-
-The goal is to assess frontend skills in:
-
-- UI creation & responsiveness
-- User interaction
-- Client-side state management
-- Form handling and validation
+> 🔗 [Live Preview](http://localhost:5173) | 🛠️ [GitHub Repo](https://github.com/DevamKumar25/AI_Safety_DashBoard)
 
 ---
 
-## 🧰 Tech Stack
+## 🚀 Getting Started
 
-- **Framework**: React (with Vite)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: React Hooks (`useState`)
-- **Build Tool**: Vite
+Follow these simple steps to set up the project locally:
 
----
-
-## 📦 Getting Started
-
-Follow the steps below to set up and run the project locally.
-
-### 1️⃣ Clone the Repository
+### 📦 Clone the Repository
 
 ```bash
 git clone https://github.com/DevamKumar25/AI_Safety_DashBoard.git
 cd AI_Safety_DashBoard
+📥 Install Dependencies
+Make sure Node.js (v16+) and npm are installed on your machine.
 
-
-### 2️⃣ Install Dependencies
-**Make sure you have Node.js (v16+) installed.**
+bash
+Copy
+Edit
 npm install
-
-### 3️⃣ Run the Development Server
+▶️ Run the Development Server
+bash
+Copy
+Edit
 npm run dev
+Once the server starts, visit:
 
-Then open your browser and navigate to:
-**http://localhost:5173**
+arduino
+Copy
+Edit
+http://localhost:5173
+✅ Features
+📋 View AI incidents with Title, Severity, and Reported Date
 
+🔍 Filter incidents by severity: All, Low, Medium, High
 
+🕓 Sort incidents by date: Newest First, Oldest First
 
-## ✅ Features
+👁️ Toggle View Details to see full descriptions
 
-- View AI safety incidents with **Title**, **Severity**, and **Reported Date**
-- **Filter** incidents by severity: `All`, `Low`, `Medium`, `High`
-- **Sort** incidents by date: `Newest First`, `Oldest First`
-- Toggle **View Details** to show/hide full descriptions
-- **Submit new incidents** using a validated form
-- Fully **responsive design** using Flexbox/Grid via Tailwind CSS
+📝 Submit new incidents using a validated form
 
----
+📱 Fully responsive layout using Tailwind CSS (Flexbox/Grid)
 
-## 🧠 Design Decisions & Challenges
+🧠 Design Decisions & Challenges
+🧩 Modular Components: Separation of concerns via reusable components
 
-- **Component Structure**: Organized into modular components for clarity and scalability.
-- **Tailwind Integration**: Rapid styling using utility-first classes.
-- **Type Safety**: Used TypeScript interfaces for incident objects to reduce runtime errors.
-- **Local State**: All data is managed in React's memory state for the session—no backend required.
+🎨 Tailwind CSS: Rapid styling with utility-first classes
 
----
+🧾 Type Safety: TypeScript interfaces ensure safety and maintainability
 
-## 📁 Folder Structure
+🧠 Local State: All logic is handled via React's built-in hooks (no backend)
 
+📁 Folder Structure
+css
+Copy
+Edit
 src/
 ├── components/
 │   ├── Dashboard.tsx
@@ -84,18 +71,18 @@ src/
 ├── App.tsx
 ├── main.tsx
 ├── index.css
+🧰 Built With
+React
 
----
+TypeScript
 
-🙌 Author
-Built with ❤️ by Devam Kumar
+Tailwind CSS
+
+Vite
+
+👨‍💻 Author
+Made with ❤️ by Devam Kumar
 
 📝 License
-This project is provided for assessment/demo purposes only and does not use real-world incident data.
-
-
----
-
-You can save this as a `README.md` file in the root of your project directory. Let me know if you'd like help pushing it to GitHub or adding badges/images!
-
+This project is intended for demo/assessment purposes only and does not use any real-world data.
 
