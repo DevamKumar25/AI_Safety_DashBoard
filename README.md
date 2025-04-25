@@ -22,8 +22,10 @@ A responsive and interactive dashboard built with **React**, **TypeScript**, **T
 
 
 
-
 ---
+
+
+
 
 ## 🚀 Getting Started
 
@@ -68,7 +70,7 @@ Visit **`http://localhost:5173/`** to view the app locally.
 
 ---
 
-## 🧠 Design Decisions & Challenges
+## 🧠 Optional: Design Decisions & Challenges
 
 - 🧩 **Modular Components:** Clean separation of concerns using reusable components.
 - 🎨 **Tailwind CSS:** Utility-first styling for rapid development.
