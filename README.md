@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ⚠️ AI Safety Dashboard
 
 A responsive and interactive dashboard built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite** to track and manage AI safety incidents.
