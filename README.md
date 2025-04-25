@@ -96,7 +96,6 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 This project is licensed under the **MIT License**.
 
 ---
-⭐ **If you like this project, don't forget to give it a star on GitHub!** ⭐
+
 =======
 
->>>>>>> a282f39bd9b9fbe45af53a8c768e1cafaab89c73
