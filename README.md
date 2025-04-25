@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚠️ AI Safety Dashboard
 
 A responsive and interactive dashboard built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite** to track and manage AI safety incidents.
@@ -96,3 +97,6 @@ This project is licensed under the **MIT License**.
 
 ---
 ⭐ **If you like this project, don't forget to give it a star on GitHub!** ⭐
+=======
+
+>>>>>>> a282f39bd9b9fbe45af53a8c768e1cafaab89c73
